@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MeineTestSeite(title: 'Bild und Text'),
+      home: MeineTestSeite(title: 'Flutter und Buttons'),
     );
   }
 }
@@ -42,15 +42,15 @@ class MeineTests extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          MeinButton(),
+          MeinElevatedButton(),
           SizedBox(width: 10.0,
           height: 10.0,
           ),
-          MeinButton2(),
+          MeinTextButton(),
           SizedBox(width: 10.0,
             height: 10.0,
           ),
-          MeinButton3(),
+          MeinOutlinedButton(),
         ],
       ),
     );

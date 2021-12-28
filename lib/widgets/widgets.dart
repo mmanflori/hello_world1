@@ -11,7 +11,7 @@ class MeinAsset extends StatelessWidget {
   }
 }
 
-class MeinButton extends StatelessWidget {
+class MeinElevatedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -32,7 +32,7 @@ class MeinButton extends StatelessWidget {
   }
 }
 
-class MeinButton2 extends StatelessWidget {
+class MeinTextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -52,7 +52,7 @@ class MeinButton2 extends StatelessWidget {
     ));
   }
 }
-class MeinButton3 extends StatelessWidget {
+class MeinOutlinedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
